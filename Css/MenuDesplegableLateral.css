@@ -1,0 +1,38 @@
+body {
+    font-family: system-ui;
+    background-color: rosybrown
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+
+
+/* Estilo a los summary */
+
+summary {
+    cursor: pointer;
+    outline: 0;
+    list-style: none;
+    display: table;
+    width: 50%;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+summary:hover {
+    background: dimgray;
+}
+
+
+/* Estilo a los SUB-Items */
+
+li {
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+li:hover {
+    background: dimgray;
+}
